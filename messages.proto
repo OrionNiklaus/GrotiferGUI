@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+package octave; // Name of the package (optional, useful for organizing messages)
+
+message Packet {
+    required int32 type = 1;  // A required integer field to indicate the message type
+    optional float angle = 2; // An optional floating-point field to hold the angle
+}
