@@ -4,7 +4,8 @@ import messages_pb2
 import threading
 
 # Initialize server socket
-host = "10.0.0.74"
+#########################input host IP############################################ 
+host = "HOST IP"
 port = 3000
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
